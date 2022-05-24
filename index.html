@@ -3,26 +3,48 @@
 	<head>
 		<title>XenPlex</title>
 		<style type="text/css">
+			html, body{
+				height: 100%;
+				width: 100%;
+				background-color: #232323;
+			}
 			button{
-			  background-color: #1e1e1e;
-			  border-radius: 5px;
-			  color: white;
-			  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-			  border-width: 0px;
-			  height: 24px;
-			  width: 75px;
+			  	background-color: #1e1e1e;
+				border-radius: 5px;
+			  	color: white;
+			  	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			  	border: none;
+			  	height: 48px;
+			  	width: 150px;
 			}
 			button:hover{
-			  background-color: #0046C1;
+			  	background-color: #0046C1;
+			}
+			img{
+				float: left;
+				width: 400px;
+				height: 400px;
+				margin: 0px 10px;
+			}
+			p{
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				color: white;
+				font-size: 40px;
 			}
 		</style>
 	</head>
 	<body>
-		<div id="container" align="center">
-
-		</div>
-		<div>
-			<a href="test.txt" download><button id="btn" type="button">Download</button></a>
+		<div class="flex">
+			<div style="float: left; width: 420px;">
+				<img src="files/XenPlex Simple Logo.png"></img>
+				<button style="margin: 10px 5px 5px 5px;">Download (Beta)</button>
+				<a href="https://discord.gg/B9KmVyYry4" target="_blank"><button>Discord</button></a>
+				<a href="https://www.youtube.com/watch?v=iik25wqIuFo" target="_blank"><button style="margin: 4px 0px 5px 5px;">Source Code</button></a>
+			</div>
+			<div style="float: right;">
+				<p>We are cool</p>
+				<img src="files/COol thumbs up.png" style="float: right;"></img>
+			</div>
 		</div>
 	</body>
 </html>
